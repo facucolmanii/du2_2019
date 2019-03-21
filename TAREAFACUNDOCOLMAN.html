@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+	<meta charset="utf-8">
+	<title> Ingresar </title>
+	<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+	<div class="titulo">
+		<fieldset><h1> Mi Sitio </h1></fieldset>
+	</div>
+	<div class="lateral">
+	<div class="caja">
+		<menu type="toolbar">
+		<ul>
+				<li><input name="login" type="submit" value="portada">
+				</li>
+				<li><input name="login" type="submit" value="ingresar">
+				</li>
+		</ul>
+		</menu>
+	</div>
+	<div class="caja">
+		<fieldset>
+			<legend>Atencion
+			<div>
+				<label>
+				Texto
+				</label>
+			</div>
+			</legend>
+		</fieldset>	
+	</div>
+
+	<div class="principal">
+		<form id="app-login" action="proces.php">
+			<fieldset>
+				<legend>login Details</legend>
+
+				<div>
+					<label for="user-name">Username</label>
+					<input type="email" name="user-name" placeholder="Your username is your email addres">
+				</div>
+
+				<div>
+					<label for="password">Password</label>
+					<input type="password" name="password" placeholder="6 digits">
+				</div>
+
+				<div>
+					<input type="submit" name="login" value="login ">
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+	<div class="footer">
+		<footer>Creado por Facundo Colman</footer>
+	</div>
+	
+</body>
+</html>
